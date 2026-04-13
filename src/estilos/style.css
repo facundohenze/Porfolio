@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 @theme {
     --animate-marquee: marquee 22s linear infinite;
@@ -12,4 +13,14 @@
             transform: translateX(-50%);
         }
     }
+}
+
+@plugin "daisyui" {
+    themes: synthwave, dark, night, forest, cupcake;
+}
+
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
 }
