@@ -5,10 +5,12 @@ import { ListaProyectos } from './components/ListaProyectos'
 import { Footer } from './components/Footer'
 import { NavBar } from './components/NavBar'
 import { Contact } from './components/Contact'
+import { ShapesBackground } from './components/ShapesBackground'
 
 export const App = () => {
     return (
-        <div className="bg-base-100">
+        <div className="animate-grid">
+            <ShapesBackground />
             <NavBar />
             <Header />
             <main className="space-y-20">
