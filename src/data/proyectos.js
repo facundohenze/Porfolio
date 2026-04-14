@@ -24,12 +24,20 @@ export const proyectos = [
         tecnologias: ["React", "TypeScript", "Node.js", "Express", "MySQL"],
         link: "https://github.com/facundohenze/Gestion_Comercial"
     },
-    /* {
+    {
         id: 4,
         imagen: "/proyectos/image124.png",
         titulo: "Slot Machine",
         descripcion: "Aplicación que simula una mini máquina tragamonedas",
         tecnologias: ["React", "JavaScript "],
-        link: "https://github.com/tuusuario/proyecto"
-    }, */
+        link: "https://github.com/facundohenze/Casino"
+    },
+    {
+        id: 5,
+        imagen: "/proyectos/image222.png",
+        titulo: "Porfolio",
+        descripcion: "",
+        tecnologias: ["React", "JavaScript", "Tailwind"],
+        link: "https://github.com/facundohenze/Porfolio"
+    },
 ]
